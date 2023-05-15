@@ -314,4 +314,73 @@ li a {
 
 .main-two-main {
   width: 50%;
+}
+
+.main-three-content {
+  max-width: 1100px;
+  margin: 80px auto;
+  display: flex;
+  width: 100%;
+  gap: 40px;
+}
+
+.main-three-right-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-three-right-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-three-right-box {
+  width: 100%;
+}
+
+.main-three-left {
+  width: 52%;
+}
+
+.main-three-right {
+  width: 48%;
+}
+
+.main-three-left h3 {
+  color: rgb(126, 58, 242);
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.main-three-left h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+}
+
+.main-three-left h4 {
+  color: rgb(107, 114, 128);
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.main-three-left p {
+  color: rgb(126, 58, 242);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.main-three-right-box p {
+  color: rgb(107, 114, 128);
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.main-three-right-box h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 0px;
 }/*# sourceMappingURL=style.css.map */
