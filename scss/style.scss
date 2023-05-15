@@ -121,6 +121,7 @@ li a {
 /// MAIN ONE
 .main-one-bg {
   background-color: rgba(249, 250, 251, 1);
+  padding-bottom: 50px;
 }
 .main-one {
   max-width: 1100px;
@@ -158,7 +159,7 @@ li a {
 .main-one-check p {
   position: relative;
   font-family: "Inter", sans-serif;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 500;
   top: 40%;
   padding-left: 5px;
@@ -183,4 +184,70 @@ li a {
 
 .main-one-right img {
   width: 100%;
+}
+
+//MAIN TWO
+
+.main-two {
+  display: flex;
+  max-width: 1100px;
+  gap: 10px;
+  margin: auto;
+}
+.main-two h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.main-one-text-3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(107, 114, 128, 1);
+  margin-top: 10px;
+}
+.main-one-text-3 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.main-one h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  padding-top: 20px;
+  margin-bottom: 15px;
+}
+.main-one-check-2 {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+}
+.main-one-check-2 p {
+  position: relative;
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  top: 40%;
+  padding-left: 5px;
+  transform: translateY(50%);
+}
+.line-2 {
+  border: 1px solid rgb(215, 215, 215);
+  border-right: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+.main-two-img {
+  width: 50%;
+}
+.main-two-img img {
+  width: 90%;
+  transform: translateY(-6%);
+}
+.main-two-main {
+  width: 50%;
 }
