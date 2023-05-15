@@ -127,24 +127,60 @@ li a {
   margin: 80px auto;
   padding-top: 60px;
   display: flex;
+  width: 100%;
+  gap: 40px;
 }
 
 .main-one h2 {
   font-family: "Inter", sans-serif;
   font-weight: 800;
   font-size: 36px;
+  padding-top: 20px;
+  margin-bottom: 15px;
 }
 .main-one-text-1 {
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 17px;
   color: rgba(107, 114, 128, 1);
+}
+.main-one-text-2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: rgba(107, 114, 128, 1);
+  margin-top: 10px;
 }
 .main-one-check {
   display: flex;
   width: 100%;
-  align-items: center;
+}
+.main-one-check p {
+  position: relative;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  top: 40%;
+  padding-left: 5px;
+  transform: translateY(50%);
 }
 .main-one-check img {
   object-fit: contain;
+}
+.line {
+  border: 1px solid rgb(215, 215, 215);
+  border-right: 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+  padding-top: 10px;
+}
+.main-one-left {
+  width: 55%;
+}
+.main-one-right {
+  width: 45%;
+}
+
+.main-one-right img {
+  width: 100%;
 }
