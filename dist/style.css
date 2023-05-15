@@ -96,21 +96,35 @@ li a {
   background-color: white;
   font-family: "Inter", sans-serif;
   border: none;
+  background-color: white;
 }
 
-.nav-right button {
+.nav-btn-styled {
   font-family: "Inter", sans-serif;
   font-size: 14px;
+  background-color: rgb(126, 58, 242);
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
 }
 
 .hero {
   width: 100%;
+  display: flex;
+  margin-top: 50px;
+}
+
+.hero-left {
+  width: 60%;
 }
 
 .hero-left h1 {
   font-family: "Inter", sans-serif;
   font-weight: 900;
   font-size: 60px;
+  margin-top: 45px;
+  margin-bottom: 15px;
 }
 
 .hero-left p {
@@ -118,4 +132,71 @@ li a {
   font-weight: 400;
   font-size: 20px;
   color: rgb(107, 114, 128);
+  margin-bottom: 17px;
+}
+
+.hero-right {
+  width: 40%;
+}
+
+.hero-right img {
+  width: 100%;
+}
+
+.nav-btn-diff-styled {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0.5px solid rgb(229, 231, 235);
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.images img {
+  width: 10%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.main-one-bg {
+  background-color: rgb(249, 250, 251);
+}
+
+.main-one {
+  max-width: 1100px;
+  margin: 80px auto;
+  padding-top: 60px;
+  display: flex;
+}
+
+.main-one h2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+}
+
+.main-one-text-1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(107, 114, 128);
+}
+
+.main-one-check {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.main-one-check img {
+  -o-object-fit: contain;
+     object-fit: contain;
 }/*# sourceMappingURL=style.css.map */
