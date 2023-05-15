@@ -36,6 +36,86 @@ a:active {
   text-decoration: none;
 }
 
-h1 {
-  color: var(--color);
+header {
+  max-width: 1100px;
+  margin: 20px auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-left img {
+  width: 5%;
+}
+
+.nav-left {
+  display: flex;
+  width: 80%;
+  align-items: center;
+}
+
+.nav-left button {
+  margin-left: 10px;
+  border: none;
+  background-color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li a {
+  padding-left: 30px;
+  font-family: "Inter", sans-serif;
+  color: black;
+  font-size: 16px;
+}
+
+.nav-right {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-right p {
+  vertical-align: middle;
+}
+
+.nav-right button {
+  width: 100%;
+}
+
+.nav-right-login {
+  background-color: white;
+  font-family: "Inter", sans-serif;
+  border: none;
+}
+
+.nav-right button {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+.hero {
+  width: 100%;
+}
+
+.hero-left h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+}
+
+.hero-left p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(107, 114, 128);
 }/*# sourceMappingURL=style.css.map */
