@@ -259,6 +259,7 @@ li a {
   display: flex;
   width: 100%;
   gap: 40px;
+  border: 2px solid red;
 }
 .main-three-right-top {
   display: flex;
@@ -311,4 +312,63 @@ li a {
   font-weight: 700;
   font-size: 24px;
   margin-bottom: 0px;
+}
+///MAIN THREE
+.main-three-bg {
+  background-color: rgba(249, 250, 251, 1);
+}
+.main-four {
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: center;
+  padding-top: 50px;
+}
+.main-four h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 39px;
+  margin-top: 12px;
+}
+.main-four-sub {
+  display: flex;
+  justify-content: center;
+}
+.main-four-sub p {
+  padding-left: 10px;
+}
+.dash {
+  color: black;
+  font-weight: bolder;
+}
+.CEO {
+  color: rgba(107, 114, 128, 1);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+/// MAIN FOUR
+.main-five {
+  text-align: center;
+  width: 100%;
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  max-width: 900px;
+  margin: auto;
+  width: 100%;
+}
+.card {
+  border: 1px solid rgba(229, 231, 235, 1);
+  border-radius: 8px;
+  padding: 20px;
+}
+.card p {
+  font-family: "Inter", sans-serif;
+  text-align: left;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
 }
