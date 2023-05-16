@@ -322,7 +322,6 @@ li a {
   display: flex;
   width: 100%;
   gap: 40px;
-  border: 2px solid red;
 }
 
 .main-three-right-top {
@@ -429,6 +428,7 @@ li a {
 .main-five {
   text-align: center;
   width: 100%;
+  margin-top: 20px;
 }
 
 .card-container {
@@ -446,10 +446,37 @@ li a {
   padding: 20px;
 }
 
-.card p {
+.card h5 {
   font-family: "Inter", sans-serif;
   text-align: left;
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
+}
+
+.nav-btn-styled-new {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  background-color: rgb(126, 58, 242);
+  color: white;
+  padding: 8px 80px;
+  border-radius: 5px;
+  border: none;
+}
+
+.main-five h6 {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.main-five h5 {
+  color: rgb(107, 114, 128);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  max-width: 700px;
+  margin: auto;
+  padding-bottom: 40px;
 }/*# sourceMappingURL=style.css.map */
