@@ -36,6 +36,10 @@ a:active {
   text-decoration: none;
 }
 
+* {
+  border: 2px solid red;
+}
+
 header {
   max-width: 1100px;
   margin: 20px auto;
@@ -442,6 +446,7 @@ li a {
   max-width: 900px;
   margin: auto;
   width: 100%;
+  border: 2px solid green;
 }
 
 .plan-month {
@@ -462,7 +467,7 @@ li a {
 .card {
   border: 1px solid rgb(229, 231, 235);
   border-radius: 8px;
-  padding: 20px;
+  width: 100%;
 }
 
 .card p {
@@ -651,4 +656,77 @@ li a {
 .initial {
   font-weight: bold;
   font-family: "Inter", sans-serif;
+}
+
+@media (max-width: 576px) {
+  .mobile-view-nav {
+    display: none;
+  }
+  .nav-right {
+    display: none;
+  }
+  .hero {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 40px;
+  }
+  .hero-left {
+    width: 100%;
+    text-align: center;
+  }
+  .hero-right {
+    width: 100%;
+  }
+  .main-one {
+    flex-direction: column;
+    margin-top: 20px;
+    padding-top: 0px;
+  }
+  .main-one-left,
+  .main-one-right {
+    width: 100%;
+    text-align: center;
+  }
+  .main-one-check {
+    width: 100%;
+    max-width: 290px;
+    margin: auto;
+  }
+  .main-two {
+    flex-direction: column-reverse;
+    margin-top: -50px;
+  }
+  .main-two-img,
+  .main-two-main {
+    width: 100%;
+    text-align: center;
+  }
+  .main-two-img img {
+    width: 100%;
+  }
+  .line-2 {
+    width: 100%;
+    max-width: 290px;
+    margin: 20px auto;
+  }
+  .main-three-content {
+    flex-direction: column;
+    margin-top: -50px;
+  }
+  .main-three-left,
+  .main-three-right {
+    width: 100%;
+    text-align: center;
+  }
+  .main-three-right-top,
+  .main-three-right-bottom {
+    flex-direction: column;
+  }
+  .main-three-right-box p {
+    font-size: 20px;
+  }
+  .main-three-right-top img,
+  .main-three-right-bottom img {
+    width: 15%;
+  }
 }/*# sourceMappingURL=style.css.map */
