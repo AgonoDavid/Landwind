@@ -329,6 +329,10 @@ li a {
   justify-content: space-between;
 }
 
+.right-top-img {
+  padding-top: 14px;
+}
+
 .main-three-right-bottom {
   display: flex;
   justify-content: space-between;
@@ -440,10 +444,56 @@ li a {
   width: 100%;
 }
 
+.plan-month {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.plan-tick {
+  padding-right: 10px;
+}
+
+.plan-num {
+  font-weight: bold;
+}
+
 .card {
   border: 1px solid rgb(229, 231, 235);
   border-radius: 8px;
   padding: 20px;
+}
+
+.card p {
+  text-align: left;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: -6px;
+}
+
+.card h2 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+}
+
+.card h4 {
+  color: rgb(107, 114, 128);
+  font-size: 18px;
+  font-weight: 400px;
+  font-family: "Inter", sans-serif;
+}
+
+.card h3 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
 }
 
 .card h5 {
@@ -561,4 +611,36 @@ li a {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 12px;
+}
+
+.main-nine {
+  width: 100%;
+  width: 900px;
+  margin: auto;
+}
+
+.main-nine-one {
+  display: flex;
+  max-width: 150px;
+  margin: auto;
+}
+
+.footer-logo-text {
+  border: none;
+  background-color: white;
+}
+
+.final-text {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.footer-img {
+  max-width: 150px;
+  margin: 10px auto;
+}
+
+.footer-img img {
+  padding-left: 10px;
+  width: 20%;
 }/*# sourceMappingURL=style.css.map */
