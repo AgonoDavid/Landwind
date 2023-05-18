@@ -662,6 +662,10 @@ li a {
     max-width: 340px;
     margin: auto;
   }
+  .mobile-view-nav,
+  .nav-right {
+    display: none;
+  }
   .hero {
     flex-direction: column;
     margin-top: -14px;
