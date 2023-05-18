@@ -628,11 +628,14 @@ li a {
 .footer-logo-text {
   border: none;
   background-color: white;
+  font-family: "Inter", sans-serif;
 }
 
 .final-text {
   text-align: center;
   padding-top: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
 }
 
 .footer-img {
@@ -643,4 +646,9 @@ li a {
 .footer-img img {
   padding-left: 10px;
   width: 20%;
+}
+
+.initial {
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
 }/*# sourceMappingURL=style.css.map */
