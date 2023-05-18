@@ -1016,4 +1016,42 @@ li a {
     max-width: 340px;
     margin: 30px auto;
   }
+}
+@media only screen and (max-width: 992px) {
+  .mobile-view-nav,
+  .nav-right {
+    display: none;
+  }
+  .hero {
+    max-width: 770px;
+    margin: auto;
+  }
+  .images {
+    max-width: 700px;
+    margin: auto;
+    padding-top: 50px;
+  }
+  .hero-left h1 {
+    font-size: 39px;
+  }
+  .hero-left p {
+    font-size: 14px;
+  }
+  .main-one {
+    max-width: 770px;
+    margin: auto;
+  }
+  .main-one-left h2 {
+    font-size: 28px;
+  }
+  .main-one-text-1,
+  .main-one-text-2,
+  .main-one-text-3 {
+    font-size: 13px;
+    padding-top: 10px;
+  }
+  .main-two {
+    max-width: 700px;
+    margin: 30px auto;
+  }
 }/*# sourceMappingURL=style.css.map */
