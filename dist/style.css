@@ -654,10 +654,6 @@ li a {
 }
 
 @media only screen and (max-width: 576px) {
-  body {
-    max-width: 340px;
-    margin: auto;
-  }
   .mobile-view-nav,
   .nav-right {
     display: none;
@@ -665,6 +661,12 @@ li a {
   .hero {
     flex-direction: column;
     margin-top: -14px;
+    max-width: 340px;
+    margin: auto;
+  }
+  .images {
+    max-width: 340px;
+    margin: auto;
   }
   .hero-left,
   .hero-right {
@@ -683,7 +685,15 @@ li a {
   }
   .main-one {
     flex-direction: column;
-    margin-top: -35px;
+    margin-top: -7px;
+    max-width: 340px;
+    margin: auto;
+  }
+  .main-one-check-2 {
+    width: 90%;
+  }
+  .main-one-check-2 img {
+    width: 9%;
   }
   .main-one-left,
   .main-one-right {
@@ -694,19 +704,23 @@ li a {
     padding-top: 0px;
   }
   .main-one-text-1,
-  .main-one-text-2 {
+  .main-one-text-2,
+  .main-one-text-3 {
     font-size: 13px;
+    padding-top: 10px;
   }
   .line {
     max-width: 300px;
     margin: auto;
   }
   .main-two {
-    margin-top: -39px;
     flex-direction: column-reverse;
+    max-width: 340px;
+    margin: auto;
   }
   .main-two-main {
     width: 100%;
+    padding-top: 25px;
   }
   .main-two-main h3 {
     text-align: center;
@@ -728,8 +742,9 @@ li a {
   }
   .main-three-content {
     flex-direction: column;
-    margin-top: -20px;
     margin-bottom: 0px;
+    max-width: 340px;
+    margin: auto;
   }
   .main-three-left {
     width: 100%;
@@ -749,16 +764,25 @@ li a {
     font-size: 14px;
     text-align: center;
   }
+  .main-three-right-box h3 {
+    font-size: 20px;
+  }
+  .main-three-right-box p {
+    font-size: 12px;
+  }
   .main-four {
     margin-top: 0px;
     margin-bottom: 0px;
+    max-width: 340px;
+    margin: auto;
   }
   .main-four h3 {
     font-size: 18px;
     line-height: 28px;
   }
   .main-five {
-    margin-top: -40px;
+    max-width: 340px;
+    margin: auto;
   }
   .main-five h6 {
     font-size: 27px;
@@ -785,14 +809,17 @@ li a {
     font-size: 10px;
   }
   .main-six {
-    margin-top: 55px;
+    max-width: 340px;
+    margin: 55px auto;
   }
   .faq img {
     width: 5%;
   }
-  .main-seven {
+  .main-seven-sub {
     width: 100%;
     padding-top: 0px;
+    max-width: 340px;
+    margin: auto;
   }
   .main-seven-sub h2 {
     font-size: 23px;
@@ -804,5 +831,7 @@ li a {
     flex-direction: column-reverse;
     gap: 20px;
     text-align: center;
+    max-width: 340px;
+    margin: 30px auto;
   }
 }/*# sourceMappingURL=style.css.map */
