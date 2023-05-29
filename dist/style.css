@@ -333,7 +333,6 @@ nav {
 
 .main-two-img img {
   width: 90%;
-  transform: translateY(-6%);
 }
 
 .main-two-main {
@@ -948,13 +947,12 @@ nav {
     display: none;
   }
   .hero {
-    flex-direction: column;
     margin-top: -14px;
-    max-width: 560px;
+    max-width: 590px;
     margin: auto;
   }
   .images {
-    max-width: 340px;
+    max-width: 590px;
     margin: auto;
   }
   .hero-left {
@@ -980,14 +978,14 @@ nav {
   .main-one {
     flex-direction: column;
     margin-top: -7px;
-    max-width: 340px;
+    max-width: 590px;
     margin: auto;
   }
   .main-one-check-2 {
     width: 90%;
   }
   .main-one-check-2 img {
-    width: 9%;
+    width: 10%;
   }
   .main-one-left,
   .main-one-right {
@@ -996,12 +994,14 @@ nav {
   }
   .main-one-left h2 {
     padding-top: 0px;
+    font-size: 30px;
   }
   .main-one-text-1,
   .main-one-text-2,
   .main-one-text-3 {
     font-size: 13px;
-    padding-top: 10px;
+    max-width: 500px;
+    margin: auto;
   }
   .line,
   .main-three-left h3 {
@@ -1010,10 +1010,14 @@ nav {
     text-align: center;
     padding-bottom: 10px;
   }
+  .main-one-right img {
+    width: 80%;
+  }
   .main-two {
     flex-direction: column-reverse;
-    max-width: 340px;
+    max-width: 590px;
     margin: auto;
+    width: 100%;
   }
   .main-two-main {
     width: 100%;
@@ -1021,6 +1025,7 @@ nav {
   }
   .main-two-main h3 {
     text-align: center;
+    font-size: 30px;
   }
   .main-two-main p {
     text-align: center;
@@ -1032,16 +1037,25 @@ nav {
   }
   .main-two-img {
     width: 100%;
-    padding-top: 30px;
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
   }
   .main-two-img img {
-    width: 100%;
+    align-self: center;
+    margin: 0 auto;
+    width: 80%;
+  }
+  .main-three {
+    margin-top: 30px;
   }
   .main-three-content {
     flex-direction: column;
-    margin-bottom: 0px;
-    max-width: 340px;
+    margin-bottom: 20px;
+    max-width: 600px;
     margin: auto;
+    border: 2px solid red;
   }
   .main-three-left {
     width: 100%;
@@ -1052,20 +1066,33 @@ nav {
   .main-three-right-top,
   .main-three-right-bottom {
     gap: 20px;
+    max-width: 550px;
+    margin: auto;
+    padding-left: 50px;
   }
   .main-three-left h2 {
     text-align: center;
     font-size: 25px;
+    max-width: 400px;
+    margin: auto;
+    padding-bottom: 10px;
   }
   .main-three-left h4 {
     font-size: 14px;
     text-align: center;
+    max-width: 400px;
+    margin: auto;
+    padding-bottom: 20px;
   }
   .main-three-right-box h3 {
     font-size: 20px;
+    max-width: 300px;
+    margin: auto;
   }
   .main-three-right-box p {
     font-size: 12px;
+    max-width: 300px;
+    margin: auto;
   }
   .main-four {
     margin-top: 0px;
@@ -1091,7 +1118,7 @@ nav {
     flex-direction: column;
   }
   .card {
-    padding: 20px;
+    padding: 30px 70px;
   }
   .card h2 {
     font-size: 24px;
@@ -1228,13 +1255,6 @@ nav {
   .line-2 {
     max-width: 300px;
     margin: auto;
-  }
-  .main-two-img {
-    width: 100%;
-    padding-top: 30px;
-  }
-  .main-two-img img {
-    width: 100%;
   }
   .main-three-content {
     margin-bottom: 0px;
