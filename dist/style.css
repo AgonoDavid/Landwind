@@ -699,7 +699,7 @@ nav {
     height: 45vh;
     line-height: 25px;
     flex-direction: column;
-    padding-top: 10px;
+    padding-top: 20px;
   }
   .nav-middle a {
     padding-top: 13px;
@@ -915,10 +915,10 @@ nav {
     text-align: center;
     transition: 0.6s;
     background-color: white;
-    height: 35vh;
+    height: 55vh;
     line-height: 25px;
     flex-direction: column;
-    padding-top: 10px;
+    padding-top: 30px;
   }
   .nav-middle a {
     padding-top: 13px;
