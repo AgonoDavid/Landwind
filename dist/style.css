@@ -758,6 +758,9 @@ nav {
     padding-left: 30px;
     padding-right: 30px;
   }
+  .main-one-check-2 {
+    width: 100%;
+  }
   .main-one-left,
   .main-one-right {
     width: 100%;
@@ -965,6 +968,9 @@ nav {
     margin-top: -7px;
     max-width: 590px;
     margin: auto;
+  }
+  .main-one-check-2 {
+    width: 100%;
   }
   .main-one-left,
   .main-one-right {
