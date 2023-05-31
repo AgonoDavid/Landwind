@@ -915,7 +915,6 @@ nav {
     height: 50vh;
     line-height: 20px;
     flex-direction: column;
-    padding-top: 25px;
   }
   .nav-middle a {
     padding-top: 13px;
