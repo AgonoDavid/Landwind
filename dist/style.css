@@ -691,11 +691,10 @@ nav {
   .nav-middle {
     position: absolute;
     left: -100%;
-    gap: 0;
     text-align: center;
     transition: 0.6s;
     background-color: white;
-    height: 30vh;
+    height: 42vh;
     line-height: 20px;
     flex-direction: column;
   }
@@ -908,11 +907,9 @@ nav {
   .nav-middle {
     position: absolute;
     left: -100%;
-    gap: 0;
     text-align: center;
     transition: 0.6s;
     background-color: white;
-    height: 25vh;
     line-height: 20px;
     flex-direction: column;
   }
