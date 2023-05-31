@@ -698,7 +698,7 @@ nav {
     text-align: center;
     transition: 0.6s;
     background-color: white;
-    height: 42vh;
+    height: 30vh;
     line-height: 26px;
     flex-direction: column;
   }
