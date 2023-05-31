@@ -17,7 +17,14 @@ let toggle = true;
 hamburger.addEventListener("click", function () {
   hamburger.classList.toggle("active");
   mobile_view.classList.toggle("active");
-  // closehamburger.classList.remove("hidden");
+
+  toggle = !toggle;
+
+  toggle
+    ? (hamburger.src = "images\\hamburger.png")
+    : (hamburger.src = "images\\closehamburger.png");
+
+  console.log("i love jesus");
 });
 
 up_arrow.addEventListener("click", function () {
