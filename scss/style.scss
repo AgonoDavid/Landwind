@@ -580,12 +580,9 @@ nav {
 
 ///MOBILE VIEW
 @media only screen and (max-width: 576px) {
-  header {
-    // border: 2px solid red;
-  }
   main {
-    max-width: 315px;
-    margin: auto;
+    // max-width: 315px;
+    // margin: auto;
   }
   .navbar {
     position: relative;
@@ -607,7 +604,7 @@ nav {
     text-align: center;
     transition: 0.6s;
     background-color: white;
-    height: 35vh;
+    height: 45vh;
     line-height: 25px;
     flex-direction: column;
     padding-top: 10px;
@@ -634,10 +631,6 @@ nav {
   .hamburger {
     padding-right: 20px;
   }
-  nav {
-    max-width: 500px;
-    margin: auto;
-  }
 
   .line {
     text-align: center;
@@ -645,20 +638,22 @@ nav {
   .hero {
     flex-direction: column;
     margin-top: -14px;
-    max-width: 340px;
-    margin: auto;
   }
-  .images {
-    max-width: 340px;
-    margin: auto;
-  }
-  .hero-left,
+
   .hero-right {
     width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .hero-left {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .hero-left h1 {
     text-align: center;
-    font-size: 37px;
+    font-size: 20px;
+    // border: 2px solid red;
   }
 
   .hero-left p {
@@ -668,11 +663,15 @@ nav {
   .hero-buttons {
     text-align: center;
   }
+  .images {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
   .main-one {
     flex-direction: column;
     margin-top: -7px;
-    max-width: 700px;
-    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .main-one-check-2 {
     width: 90%;
@@ -706,8 +705,8 @@ nav {
   ///MAIN TWO
   .main-two {
     flex-direction: column-reverse;
-    max-width: 700px;
-    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .main-two-main {
     width: 100%;
@@ -721,8 +720,8 @@ nav {
     font-size: 13px;
   }
   .line-2 {
-    max-width: 300px;
-    margin: auto;
+    padding-left: 20px;
+    // border: 2px solid red;
   }
   .main-two-img {
     width: 100%;
@@ -735,8 +734,8 @@ nav {
   .main-three-content {
     flex-direction: column;
     margin-bottom: 0px;
-    max-width: 700px;
-    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
     // border: 2px solid red;
   }
   .main-three-left {
@@ -745,9 +744,12 @@ nav {
   .main-three-right {
     width: 100%;
   }
-  .main-three-right-top,
+
   .main-three-right-bottom {
-    gap: 20px;
+    padding-top: 20px;
+  }
+  .main-three-right-top {
+    // border: 2px solid red;
   }
   .main-three-left h2 {
     text-align: center;
@@ -761,24 +763,24 @@ nav {
     font-size: 20px;
   }
   .main-three-right-box p {
-    font-size: 12px;
+    font-size: 9px;
   }
   ///MAIN FOUR
   .main-four {
     margin-top: 0px;
     margin-bottom: 0px;
-    max-width: 700px;
-    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .main-four h3 {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 28px;
   }
   ///MAIN FIVE
   .main-five {
     // margin-top: 30px;
-    max-width: 700px;
-    margin: auto;
+    // padding-left: 30px;
+    // padding-right: 30px;
   }
   .main-five h6 {
     font-size: 27px;
@@ -883,7 +885,7 @@ nav {
     display: none;
   }
   .hero {
-    // flex-direction: column;
+    flex-direction: column;
     margin-top: -14px;
     max-width: 590px;
     margin: auto;
@@ -896,7 +898,7 @@ nav {
     width: 100%;
   }
   .hero-right {
-    width: 10%;
+    width: 100%;
   }
   .hero-right img {
     width: 100%;
@@ -1114,230 +1116,3 @@ nav {
     margin: 30px auto;
   }
 }
-
-//LAPTOP SCREEN
-@media only screen and (max-width: 992px) {
-  .navbar {
-    position: relative;
-    // border: 2px solid purple;
-    display: flex;
-    width: 100%;
-  }
-
-  .nav-middle {
-    width: 100%;
-  }
-  .nav-right button {
-    padding: 2px;
-  }
-  .nav-middle a {
-    padding-top: 13px;
-    padding-left: 10px;
-    transform: translateY(-30%);
-  }
-
-  .nav-middle.active {
-    left: 0;
-  }
-  .hero {
-    max-width: 730px;
-    margin: auto;
-    margin-top: 30px;
-  }
-
-  .images {
-    max-width: 340px;
-    margin: auto;
-  }
-  .hero-left,
-  .hero-right {
-    width: 100%;
-  }
-  .hero-left h1 {
-    text-align: center;
-    font-size: 45px;
-  }
-
-  .hero-left p {
-    font-size: 14px;
-    text-align: center;
-  }
-  .hero-buttons {
-    text-align: center;
-  }
-  .line,
-  .main-three-left h3 {
-    text-align: center;
-    padding-bottom: 10px;
-  }
-  .main-one {
-    // flex-direction: column;
-    margin-top: -7px;
-    max-width: 730px;
-    margin: auto;
-  }
-  .main-one-check-2 {
-    width: 90%;
-  }
-  .main-one-check-2 img {
-    width: 9%;
-  }
-  .main-one-left,
-  .main-one-right {
-    width: 100%;
-    text-align: center;
-  }
-
-  .main-one-left h2 {
-    padding-top: 0px;
-  }
-  .main-one-text-1,
-  .main-one-text-2,
-  .main-one-text-3 {
-    font-size: 13px;
-    padding-top: 10px;
-  }
-  .line {
-    max-width: 300px;
-    margin: auto;
-  }
-
-  ///MAIN TWO
-  .main-two {
-    // flex-direction: column-reverse;
-    max-width: 730px;
-    margin: auto;
-  }
-  .main-two-main {
-    width: 100%;
-    padding-top: 25px;
-  }
-  .main-two-main h3 {
-    text-align: center;
-  }
-  .main-two-main p {
-    text-align: center;
-    font-size: 13px;
-  }
-  .line-2 {
-    max-width: 300px;
-    margin: auto;
-  }
-  // .main-two-img {
-  //   width: 100%;
-  //   padding-top: 30px;
-  // }
-  // .main-two-img img {
-  //   width: 100%;
-  // }
-  ///MAIN THREE
-  .main-three-content {
-    // flex-direction: column;
-    margin-bottom: 0px;
-    max-width: 730px;
-    margin: auto;
-    // border: 2px solid red;
-  }
-  .main-three-left {
-    width: 100%;
-  }
-  .main-three-right {
-    width: 100%;
-  }
-  .main-three-right-top,
-  .main-three-right-bottom {
-    gap: 20px;
-  }
-  .main-three-left h2 {
-    text-align: center;
-    font-size: 25px;
-  }
-  .main-three-left h4 {
-    font-size: 14px;
-    text-align: center;
-  }
-  .main-three-right-box h3 {
-    font-size: 20px;
-  }
-  .main-three-right-box p {
-    font-size: 12px;
-  }
-  ///MAIN FOUR
-  .main-four {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    max-width: 500px;
-    margin: auto;
-  }
-  .main-four h3 {
-    font-size: 18px;
-    line-height: 28px;
-  }
-  ///MAIN FIVE
-  .main-five {
-    // margin-top: 30px;
-    max-width: 500px;
-    margin: auto;
-  }
-  .main-five h6 {
-    font-size: 27px;
-  }
-  .main-five h5 {
-    font-size: 15px;
-  }
-  .card-container {
-    flex-direction: column;
-  }
-  .card {
-    padding: 70px;
-  }
-  .card h2 {
-    font-size: 24px;
-  }
-  .card h3 {
-    font-size: 19px;
-  }
-  .card h4 {
-    font-size: 15px;
-  }
-  .plan-month {
-    font-size: 10px;
-  }
-  ///MAIN SIX
-  .main-six {
-    // margin-top: 55px;
-    max-width: 730px;
-    margin: 55px auto;
-  }
-  .faq img {
-    width: 2%;
-  }
-  ///MAIN SEVEN
-  .main-seven-sub {
-    width: 100%;
-    padding-top: 0px;
-    max-width: 500px;
-    margin: auto;
-  }
-  .main-seven-sub h2 {
-    font-size: 23px;
-  }
-  .main-seven-sub p {
-    font-size: 15px;
-  }
-  ///MAIN EIGHT
-  .main-eight {
-    // flex-direction: column-reverse;
-    gap: 20px;
-    text-align: center;
-    max-width: 730px;
-    margin: 30px auto;
-  }
-}
-
-// @media only screen and (max-width: 1200px) {
-//   .hero {
-//     max-width: 900px;
-//     margin: auto;
-//   }
-// }
