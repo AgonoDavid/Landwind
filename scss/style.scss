@@ -267,10 +267,10 @@ nav {
   padding-top: 10px;
 }
 .main-two-img {
-  width: 50%;
+  width: 70%;
 }
 .main-two-img img {
-  width: 90%;
+  object-fit: contain;
 }
 .main-two-main {
   width: 50%;
@@ -488,13 +488,19 @@ nav {
 
   // border: 2px solid red;
 }
-.faq-test {
+.faq-test,
+.faq-test2,
+.faq-test3,
+.faq-test4 {
   border-bottom: 1px solid black;
   padding-top: 3px;
   font-family: "Inter", sans-serif;
   font-size: 12px;
 }
-.faq-test p {
+.faq-test p,
+.faq-test2 p,
+.faq-test3 p,
+.faq-test4 p {
   text-align: left;
   // border: 2px solid blue;
 }
