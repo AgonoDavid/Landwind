@@ -115,6 +115,12 @@ nav {
   width: 100%;
 }
 
+.button1 {
+  background-color: white;
+  padding: 10px 20px;
+  border: none;
+}
+
 .nav-right-login {
   background-color: white;
   font-family: "Inter", sans-serif;
