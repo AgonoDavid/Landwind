@@ -40,6 +40,13 @@ up_arrow.addEventListener("click", function () {
   toggle
     ? (up_arrow.src = "images\\arrow-up.png")
     : (up_arrow.src = "images\\arrow-down.png");
+  //toggle back
+  // faq_text2.classList.toggle("hidden");
+  // toggle = !toggle;
+
+  // toggle
+  //   ? (up_arrow2.src = "images\\arrow-down.png")
+  //   : (up_arrow2.src = "images\\arrow-up.png");
 });
 
 up_arrow2.addEventListener("click", function () {
